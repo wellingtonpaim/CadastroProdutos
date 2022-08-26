@@ -10,7 +10,7 @@
  <a href="#Pré-Requisitos">Pré-Requisitos</a> •
  <a href="#Rodando-a-API">Rodando-a-API</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
- <a href="#MIT-Licence">MIT-Licence</a> • 
+ <a href="#MIT-License">MIT-License</a> • 
  <a href="#Autor-do-Projeto">Autor-do-Projeto</a>
 </p>
 
