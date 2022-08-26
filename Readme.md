@@ -11,7 +11,7 @@
  <a href="#Rodando-a-API">Rodando-a-API</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#MIT-Licence">MIT-Licence</a> • 
- <a href="#Autor">Autor</a>
+ <a href="#Autor-do-Projeto">Autor-do-Projeto</a>
 </p>
 
 <h4 align="center"> 
@@ -33,7 +33,7 @@ Este projeto tem como objetivo a construção de uma API Restful para gerenciar 
 
 Para a utilização desta API será necessário uma JRE Versão 11 ou superior no ambiente de produção, e o MySql Server instalado no seu servidor de banco de dados, por padrão a api está apontando na porta padrão(3306) do MySql para utilizar uma porta distinta faça a devida alteração.
 
-## 🎲 Rodando-a-API
+## Rodando-a-API
 
 ```bash
 # Clone este repositório
@@ -47,7 +47,7 @@ $ java - jar cadastro-produtos.jar
 
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 ```
-### 🛠 Tecnologias
+## Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -57,7 +57,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## MIT-License
 
-Copyright (c) <2020> <Seu Nome>
+Copyright (c) <2020> <Wellington Paim>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -77,7 +77,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Autor do Projeto
+## Autor-do-Projeto
 
 
 ![Wellington Paim](https://github.com/wellingtonpaim/CadastroProdutos/blob/main/src/main/resources/static/fotoperfil.jpeg)
