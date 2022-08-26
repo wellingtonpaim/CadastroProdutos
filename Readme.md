@@ -54,7 +54,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Java-Versão - 11](https://java.com/)
 - [Spring Boot - 2.7.3](https://spring.io/projects/spring-boot/)
 - [MySql - 8.0.30](https://mysql.com/)
-- [Maven - 4.0.0](https://mysql.com/)
+- [Maven - 4.0.0](https://maven.apache.org)
 
 ## MIT-License
 
