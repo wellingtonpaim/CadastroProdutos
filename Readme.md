@@ -79,7 +79,8 @@ SOFTWARE.
 
 ## Autor do Projeto
 
-Wellington Paim
+
+![Wellington Paim](https://github.com/wellingtonpaim/CadastroProdutos/blob/main/src/main/resources/static/fotoperfil.jpeg)
 
 <https://www.linkedin.com/in/paimwellington/>
 
