@@ -5,13 +5,13 @@
 ![Badge](https://img.shields.io/badge/WJBC-Sofwares-%237159c1?style=for-the-badge&logo=ghost)
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#features">Features</a> • 
- <a href="#pre-requisitos">Pré-Requisitos</a> •
- <a href="#rodando-a-api">Rodando-a-API</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Objetivo">Objetivo</a> •
+ <a href="#Features">Features</a> • 
+ <a href="#Pré-Requisitos">Pré-Requisitos</a> •
+ <a href="#Rodando-a-API">Rodando-a-API</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#MIT-Licence">MIT-Licence</a> • 
+ <a href="#Autor">Autor</a>
 </p>
 
 <h4 align="center"> 
@@ -29,11 +29,11 @@ Este projeto tem como objetivo a construção de uma API Restful para gerenciar 
 - [ ] Cadastro de cliente
 
 
-## Pré-requisitos
+## Pré-Requisitos
 
 Para a utilização desta API será necessário uma JRE Versão 11 ou superior no ambiente de produção, e o MySql Server instalado no seu servidor de banco de dados, por padrão a api está apontando na porta padrão(3306) do MySql para utilizar uma porta distinta faça a devida alteração.
 
-## 🎲 Rodando a API
+## 🎲 Rodando-a-API
 
 ```bash
 # Clone este repositório
@@ -55,7 +55,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring Boot - 2.7.3](https://spring.io/projects/spring-boot/)
 - [MySql - 8.0.30](https://mysql.com/)
 
-## MIT License
+## MIT-License
 
 Copyright (c) <2020> <Seu Nome>
 
