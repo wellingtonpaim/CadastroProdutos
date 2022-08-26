@@ -71,7 +71,7 @@ public class ProductController {
 		Product currentProduct = registrationProduct.searchOrFail(productId);
 		
 		BeanUtils.copyProperties(product, currentProduct, 
-				"id", "description", "quantity", "price", "registrationDate", "family");
+				"id", "registrationDate", "family");
 		
 		try {
 			return registrationProduct.save(currentProduct);	
