@@ -45,7 +45,8 @@ $ src/main/resources/application.properties
 # O arquivo executavel desta API está em src/target/cadastro-produtos.jar. Estando no diretorio acima citado, com o cmd ou terminal execute a aplicação com o comando:
 $ java - jar cadastro-produtos.jar
 
-# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+# O servidor inciará na porta 8080 - acesse: 
+$ <http://localhost:8080>
 ```
 ## Tecnologias
 
