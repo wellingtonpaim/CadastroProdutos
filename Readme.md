@@ -80,7 +80,7 @@ SOFTWARE.
 ## Autor-do-Projeto
 
 
-![Wellington Paim](https://github.com/wellingtonpaim/CadastroProdutos/blob/main/src/main/resources/static/fotoperfil.jpeg)
+![Wellington Paim](https://github.com/wellingtonpaim/CadastroProdutos/blob/main/src/main/resources/static/fotoperfil.png)
 
 <https://www.linkedin.com/in/paimwellington/>
 
