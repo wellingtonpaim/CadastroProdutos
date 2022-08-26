@@ -42,8 +42,8 @@ $ git clone <https://https://github.com/wellingtonpaim/CadastroProdutos>
 # Acesse o projeto em sua maquina com sua ide e faça a adequação das variáveis de ambiente utilizadas para o acesso ao banco de dados, no arquivo application.properties, sendo a variavel da url, do username e da password, respectivamente: DB_URL, DB_USER, DB_KEY, configure estas variáveis com os valores correspondentes ao seu banco de dados. Caso seja necessário alterar a porta de acesso ao banco de dados faça esta alteração no valor que segue na url como por exemplo em: spring.datasource.url=jdbc:mysql://localhost:3306/cadastro-produtos. O arquivo application.properties fica em:
 $ src/main/resources/application.properties
 
-# O arquivo executavel desta API está em src/target/cadastro-produtos.jar. Estando no diretorio acima citado, com o cmd ou terminal execute a aplicação com o comando:
-$ java - jar cadastro-produtos.jar
+# O arquivo executavel desta API está em src/main/resources/executable/product-registration-api-2-0.0.1-SNAPSHOT.jar. Estando no diretorio acima citado, com o cmd ou terminal execute a aplicação com o comando:
+$ java - jar product-registration-api-2-0.0.1-SNAPSHOT.jar
 
 # O servidor inciará na porta 8080 - acesse: 
 $ <http://localhost:8080>
@@ -56,6 +56,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring Boot - 2.7.3](https://spring.io/projects/spring-boot/)
 - [MySql - 8.0.30](https://mysql.com/)
 - [Maven - 4.0.0](https://maven.apache.org)
+- [Flyway - 8.5.13](https://flywaydb.org/)
 
 ## MIT-License
 
