@@ -40,9 +40,9 @@ Para a utilização desta API será necessário uma JRE Versão 11 ou superior n
 $ git clone <https://https://github.com/wellingtonpaim/CadastroProdutos>
 
 # Acesse o projeto em sua maquina com sua ide e faça a adequação das variáveis de ambiente utilizadas para o acesso ao banco de dados, no arquivo application.properties, sendo a variavel da url, do username e da password, respectivamente: DB_URL, DB_USER, DB_KEY, configure estas variáveis com os valores correspondentes ao seu banco de dados. Caso seja necessário alterar a porta de acesso ao banco de dados faça esta alteração no valor que segue na url como por exemplo em: spring.datasource.url=jdbc:mysql://localhost:3306/cadastro-produtos. O arquivo application.properties fica em:
-$ src/resources/application.properties
+$ src/main/resources/application.properties
 
-# Execute a aplicação com o comando:
+# O arquivo executavel desta API está em src/target/cadastro-produtos.jar. Estando no diretorio acima citado, com o cmd ou terminal execute a aplicação com o comando:
 $ java - jar cadastro-produtos.jar
 
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
@@ -54,10 +54,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Java-Versão - 11](https://java.com/)
 - [Spring Boot - 2.7.3](https://spring.io/projects/spring-boot/)
 - [MySql - 8.0.30](https://mysql.com/)
+- [Maven - 4.0.0](https://mysql.com/)
 
 ## MIT-License
 
-Copyright (c) <2020> <Wellington Paim>
+Copyright (c) <2022> <Wellington Paim>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
