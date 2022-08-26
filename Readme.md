@@ -1,67 +1,61 @@
-![alt text](https://github.com/wellingtonpaim/CadastroProdutos/blob/main/src/main/resources/static/wjbc-logo.png)
-
-<h1 align="center">Cadastro de Produtos</h1>
+<h1 align="center">Título do Projeto: Cadastro de Produtos</h1>
 
 <p align="center">API Restful para cadastro de produtos com organização por familias de produtos</p>
 
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/WJBC-Sofwares-%237159c1?style=for-the-badge&logo=ghost)
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
+ <a href="#features">Features</a> • 
+ <a href="#pre-requisitos">Pré-Requisitos</a> •
+ <a href="#rodando-a-api">Rodando-a-API</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  API Restful 🚀 Em construção...  🚧
 </h4>
 
-### Features
+## Objetivo
 
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+Este projeto tem como objetivo a construção de uma API Restful para gerenciar o cadastro de produtos e clientes, com um sistema automatizado de logs de alterações cadastrais
 
-### Pré-requisitos
+## Features
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+- [x] Cadastro de produtos
+- [ ] Sistema de logs de alterações cadastrais
+- [ ] Cadastro de cliente
 
-### 🎲 Rodando o Back End (servidor)
+
+## Pré-requisitos
+
+Para a utilização desta API será necessário uma JRE Versão 11 ou superior no ambiente de produção, e o MySql Server instalado no seu servidor de banco de dados, por padrão a api está apontando na porta padrão(3306) do MySql para utilizar uma porta distinta faça a devida alteração.
+
+## 🎲 Rodando a API
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://https://github.com/wellingtonpaim/CadastroProdutos>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Acesse o projeto em sua maquina com sua ide e faça a adequação das variáveis de ambiente utilizadas para o acesso ao banco de dados, no arquivo application.properties, sendo a variavel da url, do username e da password, respectivamente: DB_URL, DB_USER, DB_KEY, configure estas variáveis com os valores correspondentes ao seu banco de dados. Caso seja necessário alterar a porta de acesso ao banco de dados faça esta alteração no valor que segue na url como por exemplo em: spring.datasource.url=jdbc:mysql://localhost:3306/cadastro-produtos. O arquivo application.properties fica em:
+$ src/resources/application.properties
 
-# Vá para a pasta server
-$ cd server
+# Execute a aplicação com o comando:
+$ java - jar cadastro-produtos.jar
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 ```
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Java-Versão - 11](https://java.com/)
+- [Spring Boot - 2.7.3](https://spring.io/projects/spring-boot/)
+- [MySql - 8.0.30](https://mysql.com/)
 
-MIT License
+## MIT License
 
 Copyright (c) <2020> <Seu Nome>
 
@@ -82,3 +76,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Autor do Projeto
+
+Wellington Paim
+
+<https://www.linkedin.com/in/paimwellington/>
+
+<https://github.com/wellingtonpaim>
